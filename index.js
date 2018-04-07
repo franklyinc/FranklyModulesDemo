@@ -32,7 +32,8 @@ class ModuleDemo extends Component {
     return (
       <div className='FranklyModulesDemo'>
 	<h2 className='demo_text'>{this.props.text}</h2>
-	<p>The header above can be edited in the CMS (AMS) as a "prop" for each component instance.</p>
+	<p>The header above can be edited in the CMS (AMS) as a "prop" for each component instance. This line is hard-coded in the React module!</p>
+	<p>The image below is one of our Core Modules embedded within this Custom Module!</p>
 	<Image height={180} width={600} src={'http://franklydemo.images.worldnow.com/images/15208935_G.jpeg'} alt={'alt'} />
 
       </div>
