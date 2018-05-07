@@ -2,39 +2,17 @@ import React, { Component, PropTypes } from 'react';
 import Image from 'components/Image';
 
 class ModuleDemo extends Component {
-   componentWillMount() {
-      console.log('Component WILL MOUNT!')
-   }
-   componentDidMount() {
-      console.log('Component DID MOUNT!')
-   }
-   componentWillReceiveProps(newProps) {    
-      console.log('Component WILL RECIEVE PROPS!')
-   }
-   shouldComponentUpdate(newProps, newState) {
-      console.log('shouldComponentUpdate!')
-      return true;
-   }
-   componentWillUpdate(nextProps, nextState) {
-      console.log('Component WILL UPDATE!');
-   }
-   componentDidUpdate(prevProps, prevState) {
-      console.log('Component DID UPDATE!')
-   }
-   componentWillUnmount() {
-      console.log('Component WILL UNMOUNT!')
-   }
-	
-
-	
   render(){
-	  
     return (
       <div className='FranklyModulesDemo'>
-	<h2 className='demo_text'>{this.props.text}</h2>
-	<p>The header above can be edited in the CMS (AMS) as a "prop" for each component instance. This line is hard-coded in the React module!</p>
-	<p>The image below is one of our Core Modules embedded within this Custom Module!</p>
-	<Image height={180} width={600} src={'http://franklydemo.images.worldnow.com/images/15208935_G.jpeg'} alt={'alt'} />
+	
+	  <h2 className='demo_text'>{this.props.text}</h2>
+	
+	  <p>The header above can be edited in the CMS (AMS)!</p>
+	
+	  <p>The image below is a core Image Module embedded within this Custom Module!</p>
+
+	  <Image height={180} width={600} src={'https://franklydemo.images.worldnow.com/images/15208935_G.jpeg'} alt={'Fire Photo'} />
 
       </div>
     );
