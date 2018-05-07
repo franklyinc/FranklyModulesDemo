@@ -8,7 +8,7 @@ class ModuleDemo extends Component {
 	
 	  <h2 className='demo_text'>{this.props.text}</h2>
 	
-	  <p>The header above can be edited in the CMS (AMS)!</p>
+	  <p>The header above can be edited in the CMS!</p>
 	
 	  <p>The image below is a core Image Module embedded within this Custom Module!</p>
 
