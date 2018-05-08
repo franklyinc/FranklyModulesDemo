@@ -1,5 +1,5 @@
 .demo_text {
-  background-color: lightgrey;
+  background-color: #eeeeee;
   font-weight:bold;
   text-transform: uppercase;
 }
@@ -8,13 +8,3 @@
 
 
 
-
-.FranklyModulesDemo {
-  padding: 20px;
-  margin: 20px 0;
-  background-color: #eeeeee;
-}
-
-.FranklyModulesDemo p {
-  font-size: 16px;
-}
