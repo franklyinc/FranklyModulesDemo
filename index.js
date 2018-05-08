@@ -6,7 +6,7 @@ class ModuleDemo extends Component {
     return (
       <div className='FranklyModulesDemo'>
 	
-	  <h2 className='demo_text'>{this.props.text}</h2>
+	  <h2 className='demo_text'>{this.props.text} !!!!!!</h2>
 	
 	  <p>The header above can be edited in the CMS!</p>
 	
